@@ -18,4 +18,12 @@ Here's some information about where they came from:
 (coming soon)
 
 
+###about parki_space_parki_space.sql
 
+contributed by Jay Venti
+6 Feb 2014
+notes from Jay: 
+
+In case it's too much of a bother to run the utilities I have a MySQL dump of the parking data.
+It may not be perfect if you find anything funky about it let me know. Also you may need to add 
+indexes for your specific purpose it's a freshly imported item.
