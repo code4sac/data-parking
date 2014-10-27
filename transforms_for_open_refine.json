@@ -1,0 +1,3888 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column Description by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Description",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "<td>",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 1",
+    "columnName": "Description 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 2",
+    "columnName": "Description 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 3",
+    "columnName": "Description 3"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 5 to GISOBJID",
+    "oldColumnName": "Description 5",
+    "newColumnName": "GISOBJID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 7 to ADDRESS",
+    "oldColumnName": "Description 7",
+    "newColumnName": "ADDRESS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 9 to AORB",
+    "oldColumnName": "Description 9",
+    "newColumnName": "AORB"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 11 to STREET",
+    "oldColumnName": "Description 11",
+    "newColumnName": "STREET"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 13 to SUFFIX",
+    "oldColumnName": "Description 13",
+    "newColumnName": "SUFFIX"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 15 to PREFIX",
+    "oldColumnName": "Description 15",
+    "newColumnName": "PREFIX"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 17 to EVENODD",
+    "oldColumnName": "Description 17",
+    "newColumnName": "EVENODD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 19 to TIMELIMIT",
+    "oldColumnName": "Description 19",
+    "newColumnName": "TIMELIMIT"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 21 to DAYRESTRIC",
+    "oldColumnName": "Description 21",
+    "newColumnName": "DAYRESTRIC"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 23 to PKGTYPE",
+    "oldColumnName": "Description 23",
+    "newColumnName": "PKGTYPE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 25 to AORP",
+    "oldColumnName": "Description 25",
+    "newColumnName": "AORP"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 27 to PERMITAREA",
+    "oldColumnName": "Description 27",
+    "newColumnName": "PERMITAREA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 29 to ROUTE",
+    "oldColumnName": "Description 29",
+    "newColumnName": "ROUTE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 31 to ZONE",
+    "oldColumnName": "Description 31",
+    "newColumnName": "ZONE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 33 to MAXRATE",
+    "oldColumnName": "Description 33",
+    "newColumnName": "MAXRATE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 35 to SHAPE",
+    "oldColumnName": "Description 35",
+    "newColumnName": "SHAPE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 37 to SHAPE_FID",
+    "oldColumnName": "Description 37",
+    "newColumnName": "SHAPE_FID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 39 to POINT_X",
+    "oldColumnName": "Description 39",
+    "newColumnName": "POINT_X"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Description 41 to POINT_Y",
+    "oldColumnName": "Description 41",
+    "newColumnName": "POINT_Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 40",
+    "columnName": "Description 40"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 38",
+    "columnName": "Description 38"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 36",
+    "columnName": "Description 36"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 34",
+    "columnName": "Description 34"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 32",
+    "columnName": "Description 32"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 30",
+    "columnName": "Description 30"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 28",
+    "columnName": "Description 28"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 26",
+    "columnName": "Description 26"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 24",
+    "columnName": "Description 24"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 22",
+    "columnName": "Description 22"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 20",
+    "columnName": "Description 20"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 18",
+    "columnName": "Description 18"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 16",
+    "columnName": "Description 16"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 14",
+    "columnName": "Description 14"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 12",
+    "columnName": "Description 12"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 10",
+    "columnName": "Description 10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 8",
+    "columnName": "Description 8"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 6",
+    "columnName": "Description 6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description 4",
+    "columnName": "Description 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Description",
+    "columnName": "Description"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column GISOBJID using expression grel:partition(value,/\\d*/)[1]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "GISOBJID",
+    "expression": "grel:partition(value,/\\d*/)[1]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ADDRESS using expression grel:partition(trim(value),/\\w*/)[1])",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ADDRESS",
+    "expression": "grel:partition(trim(value),/\\w*/)[1])",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AORB using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AORB",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column STREET using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SUFFIX using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PREFIX using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EVENODD using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EVENODD",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DAYRESTRIC using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DAYRESTRIC",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PKGTYPE using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PKGTYPE",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AORP using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AORP",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PERMITAREA using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PERMITAREA",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ROUTE using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ROUTE",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MAXRATE using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAXRATE",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SHAPE using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SHAPE",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SHAPE_FID using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SHAPE_FID",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column POINT_X using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "POINT_X",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column POINT_Y using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "POINT_Y",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ZONE using expression grel:partition(value,/\\</)[0]",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ZONE",
+    "expression": "grel:partition(value,/\\</)[0]",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column AORB",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "AORB",
+          "omitBlank": false,
+          "columnName": "AORB",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "&lt;Null&gt;",
+                "l": "&lt;Null&gt;"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "AORB",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "&lt;Null&gt;",
+                "l": "&lt;Null&gt;"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "SUFFIX",
+          "omitBlank": false,
+          "columnName": "SUFFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "&lt;Null&gt;",
+                "l": "&lt;Null&gt;"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIMELIMIT",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "&lt;Null&gt;",
+                "l": "&lt;Null&gt;"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIMELIMIT",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "1 Hour",
+                "l": "1 Hour"
+              }
+            },
+            {
+              "v": {
+                "v": "1 HR",
+                "l": "1 HR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1 Hour"
+        ],
+        "to": "60"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TIMELIMIT",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "1 HR",
+                "l": "1 HR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "1 HR"
+        ],
+        "to": "60"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:600",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "10 HRS",
+                "l": "10 HRS"
+              }
+            },
+            {
+              "v": {
+                "v": "10 Hour",
+                "l": "10 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:600",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:15",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "15 Minutes",
+                "l": "15 Minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:15",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:120",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "2 HRS",
+                "l": "2 HRS"
+              }
+            },
+            {
+              "v": {
+                "v": "2 Hour",
+                "l": "2 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:120",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:180",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "3 HRS",
+                "l": "3 HRS"
+              }
+            },
+            {
+              "v": {
+                "v": "3 Hour",
+                "l": "3 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:180",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:30",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "30 MINS",
+                "l": "30 MINS"
+              }
+            },
+            {
+              "v": {
+                "v": "30 Minutes",
+                "l": "30 Minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:30",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:240",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "4 Hour",
+                "l": "4 Hour"
+              }
+            },
+            {
+              "v": {
+                "v": "4 HRS",
+                "l": "4 HRS"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:240",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:5",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "5 Minutes",
+                "l": "5 Minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:5",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:360",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "6 Hour",
+                "l": "6 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:360",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:480",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "8 Hour",
+                "l": "8 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:480",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:540",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "9 Hour",
+                "l": "9 Hour"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:540",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIMELIMIT using expression grel:90",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "TIMELIMIT",
+          "omitBlank": false,
+          "columnName": "TIMELIMIT",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "90 Minutes",
+                "l": "90 Minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "TIMELIMIT",
+    "expression": "grel:90",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PKGTYPE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PKGTYPE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pay &amp; Display (Meter In Space)"
+        ],
+        "to": "Pay and Display (Meter In Space)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PKGTYPE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PKGTYPE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pay &amp; Display Space"
+        ],
+        "to": "Pay and Display Space"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PKGTYPE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PKGTYPE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DAYRESTRIC",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DAYRESTRIC",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PERMITAREA",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PERMITAREA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column ROUTE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ROUTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column MAXRATE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MAXRATE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column ZONE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ZONE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column AORP",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AORP",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column EVENODD",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "EVENODD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "&lt;Null&gt;"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WAY"
+        ],
+        "to": "WY"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "3RD ST",
+                "l": "3RD ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "3RD ST",
+                "l": "3RD ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "RD"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "3RD ST",
+                "l": "3RD ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "3RD ST"
+        ],
+        "to": "3"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "10"
+        ],
+        "to": "10th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "11"
+        ],
+        "to": "11th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "12"
+        ],
+        "to": "12th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "13"
+        ],
+        "to": "13th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "14"
+        ],
+        "to": "14th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "15"
+        ],
+        "to": "15th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "16"
+        ],
+        "to": "16th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "17"
+        ],
+        "to": "17th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "18"
+        ],
+        "to": "18th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "19"
+        ],
+        "to": "19th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2"
+        ],
+        "to": "2nd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "20"
+        ],
+        "to": "20th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "21"
+        ],
+        "to": "21st"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "22"
+        ],
+        "to": "22nd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "23"
+        ],
+        "to": "23rd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "24"
+        ],
+        "to": "24th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "25"
+        ],
+        "to": "25th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "26"
+        ],
+        "to": "26th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "27"
+        ],
+        "to": "27th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "28"
+        ],
+        "to": "28th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "29"
+        ],
+        "to": "29th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "3"
+        ],
+        "to": "3rd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "30"
+        ],
+        "to": "30th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "4"
+        ],
+        "to": "4th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5"
+        ],
+        "to": "5th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "6"
+        ],
+        "to": "6th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "7"
+        ],
+        "to": "7th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "8"
+        ],
+        "to": "8th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "9"
+        ],
+        "to": "9th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 10",
+                "l": "North 10"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 10",
+                "l": "North 10"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 10",
+                "l": "North 10"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 10"
+        ],
+        "to": "10th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 12",
+                "l": "North 12"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 12",
+                "l": "North 12"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 12",
+                "l": "North 12"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 12"
+        ],
+        "to": "12th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 16",
+                "l": "North 16"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 16",
+                "l": "North 16"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 16",
+                "l": "North 16"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 16"
+        ],
+        "to": "16th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 3",
+                "l": "North 3"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 3",
+                "l": "North 3"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RD"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 3",
+                "l": "North 3"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 3"
+        ],
+        "to": "3rd"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 5",
+                "l": "North 5"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 5",
+                "l": "North 5"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 5",
+                "l": "North 5"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 5"
+        ],
+        "to": "5th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 7",
+                "l": "North 7"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 7",
+                "l": "North 7"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North 7",
+                "l": "North 7"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North 7"
+        ],
+        "to": "7th"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North B",
+                "l": "North B"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North B",
+                "l": "North B"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North B",
+                "l": "North B"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North B"
+        ],
+        "to": "B"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North C",
+                "l": "North C"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North C",
+                "l": "North C"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North C",
+                "l": "North C"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North C"
+        ],
+        "to": "C"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North D",
+                "l": "North D"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "N"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North D",
+                "l": "North D"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "STREET",
+          "omitBlank": false,
+          "columnName": "STREET",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North D",
+                "l": "North D"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North D"
+        ],
+        "to": "D"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Broadway",
+          "BROADWAY"
+        ],
+        "to": "Broadway"
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DREHER",
+          "Dreher"
+        ],
+        "to": "Dreher"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jibbom"
+        ],
+        "to": "Jibboom"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column STREET",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STREET",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "G Street"
+        ],
+        "to": "G"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "AVE",
+                "l": "AVE"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "AVE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "AVE",
+                "l": "AVE"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AVE"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "BLVD",
+                "l": "BLVD"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "BLVD"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "BLVD",
+                "l": "BLVD"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BLVD"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "CIR",
+                "l": "CIR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "CIR"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "CIR",
+                "l": "CIR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CIR"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "DR",
+                "l": "DR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "DR"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "DR",
+                "l": "DR"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "DR"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "MALL",
+                "l": "MALL"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "MALL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "MALL",
+                "l": "MALL"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MALL"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "ST",
+                "l": "ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "ST",
+                "l": "ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ND"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "ST",
+                "l": "ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "RD"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "ST",
+                "l": "ST"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "TH"
+        ],
+        "to": "ST"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "ST"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column SUFFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "WY",
+                "l": "WY"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "SUFFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Null"
+        ],
+        "to": "WY"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PREFIX",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "PREFIX",
+          "omitBlank": false,
+          "columnName": "PREFIX",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "WY",
+                "l": "WY"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PREFIX",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "WY"
+        ],
+        "to": "Null"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TIMELIMIT to TIMELIMIT_in_mins",
+    "oldColumnName": "TIMELIMIT",
+    "newColumnName": "TIMELIMIT_in_mins"
+  }
+]
